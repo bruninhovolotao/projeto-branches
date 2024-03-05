@@ -20,6 +20,17 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quisquam. Vel id incidunt autem deserunt veniam cumque obcaecati eos accusamus distinctio? Laudantium quas dolore nisi earum tempora alias labore beatae!</p>
         </article>
     </main>
-    
+    <script>
+        var nome = window.prompt('Qual é o seu nome?') // Pergunta o nome
+        window.alert('Seja bem-vindo, ' + nome) // Mostra mensagem com resultado
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var soma = n1 + n2
+        window.alert('A soma dos números é: ' + String(soma))
+        window.alert(`Seu nome é ${nome} e a soma dos números que você digitou é ${soma}.`)
+        document.write(`Olá ${nome}, seu nome tem ${nome.length} letras.`)
+        document.writeln(`Seu nome em maiúsculo fica assim: ${nome.toLocaleUpperCase()}.</br>`)
+        document.writeln(`Seu nome em minúsculo fica assim: ${nome.toLowerCase()}.</br>`)
+    </script>
 </body>
 </html>
